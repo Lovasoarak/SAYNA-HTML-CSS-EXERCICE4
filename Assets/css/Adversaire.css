@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+    border-width: 0px;
+}
+:root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --bleu: #114C92;
+    --noir: #000000;
+    --blanc: #FFFFFF;
+}
+@font-face{
+    font-family: 'spider';
+    src: url(../Assets/Far-From Homecoming Updated.otf);
+}
+ header a,footer a{
+    text-decoration: none;
+    color: var(--blanc);
+}
+ header a:hover,footer a:hover{
+    font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+    /* box-shadow: 1px 2px 8px var(--noir); */
+    transform: scale(1.1);
+    transition: ease-in-out 0.15s;
+
+}
+header{
+    background: var(--jaune);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+.logo img{
+    vertical-align: middle;
+    margin: 0 16px 0 0;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+header nav{
+    width: 40%;                                             
+}
+.logo_marvel{
+    max-width: 100%;
+}
+h1{
+    font-family: 'Far From Homecoming';
+    font-weight: lighter;
+}
+.contenu1{
+    color: var(--blanc);
+    background: url(../Illustration/img7.png) no-repeat;
+    background-size: cover;
+}
+.contenu1 div{
+    display: flex;
+    flex-direction: column;
+    padding: 18%;
+    
+}
+.contenu1 h1{
+    font-size: 4.5rem;
+}
+.contenu2{
+    background: var(--jaune);
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.contenu2 .row{
+    display: flex;
+    justify-content: center;
+}
+.contenu2 img{
+    width: 100%;
+}
+::placeholder{
+    color: white;
+}
+.contenu2 .paragraphe{
+    border: 10px solid rgb(37, 34, 34);
+    border-top: none;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 2% 0 1% 5%;
+}
+.contenu2 figure{
+    max-width: 100%;
+    padding: 1%;
+}
+.contenu2 h3{
+    margin: 5% 0 7% 0;
+    text-align: center;
+}
+footer{
+    background: var(--noir);
+}
+footer .premier-ligne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 12% 0 6%;
+}
+footer .premier-ligne .lien1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+footer .premier-ligne .lien2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 12%;
+}
+footer .premier-ligne figure img{
+    vertical-align: middle;
+    margin: 0 2.5px 0 2.5px;
+}
+footer .premier-ligne select{
+    background: var(--jaune);
+    border: none;
+    border-radius: 10px;
+    color: var(--blanc);
+    width: 160%;
+    padding: 2.5%;
+}
+footer .deuxieme-ligne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.5% 0 0 0;
+}
+footer .deuxieme-ligne figure{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+footer .deuxieme-ligne img{
+    background: var(--jaune);
+    border-radius: 17px;
+    max-width: 20%;
+    padding: 3%;
+}
+footer .troixieme-ligne{
+    text-align: center;
+    color: var(--blanc);
+    opacity: 0.6;
+    padding: 2.5% 0 2.5% 0;
+}

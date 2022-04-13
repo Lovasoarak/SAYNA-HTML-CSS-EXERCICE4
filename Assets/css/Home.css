@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+    border-width: 0px;
+}
+:root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --bleu: #114C92;
+    --noir: #000000;
+    --blanc: #FFFFFF;
+}
+@font-face{
+    font-family: 'spider';
+    src: url(../Assets/Far-From Homecoming Updated.otf);
+}
+.contenu4 a{
+    text-decoration: none;
+    color: var(--blanc);
+}
+header a, footer a{
+    text-decoration: none;
+    color: var(--blanc);
+}
+header a:hover, footer a:hover{
+    font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+    /* box-shadow: 1px 2px 8px var(--noir); */
+    transform: scale(1.1);
+    transition: ease-in-out 0.15s;
+
+}
+header{
+    background: var(--rouge);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+.logo img{
+    vertical-align: middle;
+    margin: 0 16px 0 0;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    width: 40%;
+}
+.logo_marvel{
+    max-width: 100%;
+}
+.wrap-contenu1{
+    display: flex;
+    flex-direction: column;
+    padding: 8% 11% 2% 11%;
+}
+.contenu1{
+    background: url(../Illustration/img1.png) no-repeat;
+    background-size: 100% 100%;
+    color: var(--blanc);
+}
+h1{
+    font-family: 'Far From Homecoming';
+    font-weight: lighter;
+}
+.contenu1 .wrap-contenu1 .bouton .b1 a{
+    text-decoration: none;
+    color: var(--rouge);
+}
+.contenu1 .wrap-contenu1 .bouton .b2 a{
+    text-decoration: none;
+    color: var(--blanc);
+}
+.contenu1 .title1{
+    font-size: 50px;
+    margin-top: 8%;
+}
+.contenu1 .title2{
+    font-weight: lighter;
+    margin-top: 20%;
+}
+.contenu1 h3{
+    margin-top: 2.5%;
+}
+.contenu1 .logo,.contenu1 .wrap-contenu1 h1 + h3{
+    display: none;
+}
+.bouton > button{
+    border-radius: 16px;
+    padding: 13px 10px 13px 10px;
+    width: 141px;
+}
+.contenu2 figure .b1 {
+    display: none;
+}
+.b1{
+    color: var(--rouge);
+    background-color: var(--blanc);
+    border-style: none;
+}
+.b2{
+    color: var(--blanc);
+    background: none;
+    border: 1px solid var(--blanc);
+    margin-left: 3%;
+    
+}
+.bouton{
+    margin-top: 10%;
+}
+.contenu2{
+    background: var(--rouge);
+    color: var(--blanc);
+    padding-bottom: 6%;
+}
+.figures{
+    display: flex;
+    padding: 0 11% 0 11%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.figures figure{
+    display: flex;
+    flex-direction: column;
+    max-width: 31%;
+}
+.figures figure p{
+   text-align: justify;
+}
+.figures figure ul li{
+    margin-left: 10%;
+}
+.contenu2 .bouton{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.contenu3{
+    background: var(--bleu);
+    display: flex;
+    justify-content: space-between;
+    color: var(--blanc);
+}
+.contenu3 .formulaire form{
+    display: flex;
+    flex-direction: column;
+    margin: 3% 0 6% 2%;
+}
+.contenu3 .right{
+    padding: 5% 11% 0 9%;
+}
+.contenu3 .formulaire form input{
+    width: 65%;
+    border-radius: 13px;
+    margin: 1.2% 0 1.2% 8%;
+    border: 1px solid var(--noir);
+    padding: 1%;
+}
+.contenu3 h1{
+    margin-left: 17% ;
+}
+.contenu3 button{
+    color: var(--blanc);
+    background: none;
+    border: 1px solid var(--blanc);
+    padding: 3% 9% 3% 9%;
+    margin-left: 25%;
+    margin-right: 30%;
+    border-radius: 18px;
+    
+}
+.contenu3 figure{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+}
+.contenu4{
+    color: var(--blanc);
+    background: var(--rouge);
+    display: flex;
+    
+}
+.contenu4 figure{
+    display: flex;
+    flex-direction: column;
+    max-width: 62%;
+    margin-left: -16%;
+}
+.contenu4 form input[placeholder]{
+    width: 60%;
+    border-radius: 13px;
+    margin: 1.4% 0 1.7% 0%;
+    border: 1px solid var(--blanc);
+    padding: 1%;
+    background: none;
+}
+.contenu4 .left{
+    padding: 12% 0 0 11%;
+}
+.contenu4 figure img{
+    width: 100%;
+}
+.contenu4 .checkbox{
+    display: flex;
+    width: 69%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.contenu4 button{
+    color: var(--rouge);
+    background-color: var(--blanc);
+    border-style: none;
+    padding: 3%;
+    border-radius: 18px;
+    width: 48%;
+    margin-left: 10%;
+}
+.contenu4 .titre,.contenu4 .formulaire{
+    margin-bottom: 6%;
+}
+.contenu4 a{
+    text-decoration:underline;
+}
+footer{
+    background: var(--noir);
+}
+footer .premier-ligne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 12% 0 6%;
+}
+footer .premier-ligne .lien1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+footer .premier-ligne .lien2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 12%;
+}
+footer .premier-ligne figure img{
+    vertical-align: middle;
+    margin: 0 2.5px 0 2.5px;
+}
+footer .premier-ligne select{
+    background: var(--rouge);
+    border: none;
+    border-radius: 10px;
+    color: var(--blanc);
+    width: 160%;
+    padding: 2.5%;
+}
+footer .deuxieme-ligne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.5% 0 0 0;
+}
+footer .deuxieme-ligne figure{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+footer .deuxieme-ligne img{
+    background: var(--rouge);
+    border-radius: 17px;
+    max-width: 20%;
+    padding: 3%;
+}
+footer .troixieme-ligne{
+    text-align: center;
+    color: var(--blanc);
+    opacity: 0.6;
+    padding: 2.5% 0 2.5% 0;
+}

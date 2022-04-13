@@ -1,0 +1,52 @@
+@media  only screen and ( max-width: 768px) {
+   header,.contenu1 .bouton + h3,.contenu2 .bouton{
+       display: none;
+    }
+    .contenu1 .logo,.contenu1 .wrap-contenu1 h1 + h3,.contenu2 figure .b1 {
+        display: initial;
+    }
+    .titre{
+        text-align: center;
+    }
+    .contenu2 figure .bouton{
+        display: initial;
+    }
+    .contenu2 .figures{
+       display: block;
+       padding: 0;
+       text-align: center;
+    }
+    .contenu2 .figures figure{
+        display: block;
+        padding: 13% 10% 0 10%;
+        max-width: 150%;
+    }
+    .contenu2 .figures p{
+        text-align: center;
+    }
+    .contenu2 .figures figure img{
+        width: 75%;
+        margin: 5% 0 10% 0;
+    }
+    .contenu2 .figures figure ul{
+       width: 60%;
+       margin: 0 8px 0 89px;
+    }
+    .contenu2 .bouton button{
+        margin: 5% 0 0 0;
+      }
+    .contenu3 .right{
+        padding: 8% 0% 10% 0%;
+        margin: 0% 0% 0% -45%;
+    }
+    .contenu3 figure img{
+        width: 170%;
+    }
+    .contenu4 .left{
+        margin: 0% -37% 8% 1%;
+    }
+    .contenu4 figure img{
+        margin: 45% 0% 0% 32%;
+    }
+    
+}

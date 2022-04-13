@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* box-sizing: border-box; */
+    border-width: 0px;
+}
+:root{
+    --rouge: #B11313;
+    --jaune: #F1C530;
+    --bleu: #114C92;
+    --noir: #000000;
+    --blanc: #FFFFFF;
+}
+@font-face{
+    font-family: 'spider';
+    src: url(../Assets/Far-From Homecoming Updated.otf);
+}
+a{
+    text-decoration: none;
+    color: var(--blanc);
+}
+a:hover{
+    font-weight: bolder;
+}
+button:hover{
+    cursor: pointer;
+    /* box-shadow: 1px 2px 8px var(--noir); */
+    transform: scale(1.1);
+    transition: ease-in-out 0.15s;
+
+}
+header{
+    background: var(--rouge);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1%;
+}
+.logo img{
+    vertical-align: middle;
+    margin: 0 16px 0 0;
+}
+header nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header nav{
+    width: 40%;
+}
+.logo_marvel{
+    max-width: 100%;
+}
+h1{
+    font-family: 'Far From Homecoming';
+    font-weight: lighter;
+}
+.contenu1{
+    color: var(--blanc);
+    background: var(--jaune);
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.contenu1 .left{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 60%;
+}
+.contenu1 h1{
+    font-size: 4rem;
+}
+.contenu1 img{
+    max-width: 100%;
+}
+.bouton > button{
+    border-radius: 16px;
+    padding: 13px 10px 13px 10px;
+    width: 141px;
+}
+.contenu2 .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 4% 0 4% 0;
+    
+}
+.contenu2 img{
+    max-width: 100%;
+    margin: 10% 0 5% 0;
+}
+.contenu2{
+    background: var(--rouge);
+    color: var(--blanc);
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenu2 form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+}
+.contenu2 .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 25%;
+    margin: 8% 0% 0% 0%;
+}
+.contenu2 input,.contenu2 textarea{
+    display: block;
+    background: none;
+    border: 1px solid var(--blanc);
+    border-radius: 12px;
+    margin: 4% 0 4% 0;
+    padding:  2%;
+}
+::placeholder{
+    color: white;
+}
+.contenu2 button{
+    display: block;
+    background: none;
+    border: 1px solid var(--blanc);
+    border-radius: 12px;
+    color: white;
+    width: 40%;
+    padding: 3%;
+}
+.b2{
+    color: var(--blanc);
+    background: none;
+    border: 1px solid var(--blanc);
+    margin-left: 3%;
+    
+}
+.contenu3 .bouton{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contenu3{
+    background: var(--bleu);
+    display: flex;
+    flex-direction: column;
+    color: var(--blanc);
+    padding: 4% 11% 4% 11%;
+}
+.contenu3 .paragraphe{
+    display: flex;
+    margin: 3.5% 0 3.5% 0;
+}
+.contenu3 .paragraphe .left{
+    text-align: justify;
+    width: 200%;
+}
+.contenu3 .paragraphe p{
+    margin: 2.5% 3% 3.5% 0;
+}
+.contenu3 .paragraphe .right .der{
+    margin-top: 7%;
+}
+.contenu3 ul{
+    margin-left: 9%;
+}
+.contenu3 button{
+    color: var(--blanc);
+    background: none;
+    border: 1px solid var(--blanc);
+    border-radius: 15px;
+    width: 17%;
+    
+}
+footer{
+    background: var(--noir);
+}
+footer .premier-ligne{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4% 12% 0 6%;
+}
+footer .premier-ligne .lien1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40%;
+}
+footer .premier-ligne .lien2{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 12%;
+}
+footer .premier-ligne figure img{
+    vertical-align: middle;
+    margin: 0 2.5px 0 2.5px;
+}
+footer .premier-ligne select{
+    background: var(--rouge);
+    border: none;
+    border-radius: 10px;
+    color: var(--blanc);
+    width: 160%;
+    padding: 2.5%;
+}
+footer .deuxieme-ligne{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4.5% 0 0 0;
+}
+footer .deuxieme-ligne figure{
+    display: flex;
+    justify-content: space-between;
+    width: 15%;
+}
+footer .deuxieme-ligne img{
+    background: var(--rouge);
+    border-radius: 17px;
+    max-width: 20%;
+    padding: 3%;
+}
+footer .troixieme-ligne{
+    text-align: center;
+    color: var(--blanc);
+    opacity: 0.6;
+    padding: 2.5% 0 2.5% 0;
+}
